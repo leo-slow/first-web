@@ -4,5 +4,5 @@ Example to start the server with auto-generated keys:
 
 1. openssl genpkey -algorithm RSA -out server-key.key -aes256
 2. openssl req -new -key server-key.key -out server.csr
-3. openssl x509 req -days 365 -in server.csr -signkey server-key.key -out server-cert.pem
+3. openssl x509 -req -days 365 -in server.csr -signkey server-key.key -out server-cert.pem
 4. openssl rsa -in server-key.key -out server-key.key
