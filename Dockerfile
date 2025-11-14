@@ -14,3 +14,4 @@ COPY web_template/ /var/www/html
 RUN a2ensite default-ssl
 
 CMD ["apache2-foreground"]
+
