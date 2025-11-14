@@ -30,7 +30,7 @@ This needs some configuration in your DNS Domain provider.
         ```shell
         service docker start        
         ```
-    - Build docker image (were are located your Dockerfile)
+    - Build docker image (where are located your Dockerfile)
         ```shell
         docker build -t myapp .
         ```
